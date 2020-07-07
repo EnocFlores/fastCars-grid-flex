@@ -95,11 +95,52 @@ section {
     width: 50vw;
 }
 
-.flex-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+.container {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 50px 300px;
+    grid-template-areas: 
+        "Heading1 Heading2 Heading3 Heading4"
+        "Para1 Para2 Para3 Para4";
 }
+
+.heading1 {
+    grid-area: Heading1;
+}
+
+.heading2 {
+    grid-area: Heading2;
+}
+
+.heading3 {
+    grid-area: Heading3;
+}
+
+.heading4 {
+    grid-area: Heading4;
+}
+
+.para1 {
+    grid-area: Para1;
+}
+
+.para2 {
+    grid-area: Para2;
+}
+
+.para3 {
+    grid-area: Para3;
+}
+
+.para4 {
+    grid-area: Para4;
+}
+
+.container h2 {
+    text-align: center;
+}
+
+
 
 
 
