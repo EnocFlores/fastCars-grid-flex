@@ -4,31 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>THE 2020 GDS TECH FELLOWSHIP</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
     <header>
-        <h1>THE 2020 GDS TECH FELLOWSHIP</h1>
-        <nav>
-            <a href="index.html">Home</a> | 
-            <a href="https://www.goldendoorscholars.org/" target="_blank">Golden Door Scholars</a> |
-            <a href="https://roadtohire.org/" target="_blank">Road to Hire</a> |
-            <a href="https://www.redventures.com/" target="_blank">Red Ventures</a> |
-            <a href="about.html">About Us</a> |
-            <a href="contact.html">Contact Us</a>
-        </nav>
+        <div class="header-box">
+            <h1>THE 2020 GDS TECH FELLOWSHIP</h1>
+            <nav>
+                <ul class="main-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="https://www.goldendoorscholars.org/" target="_blank" class="GDS">Golden Door Scholars</a></li>
+                    <li><a href="https://roadtohire.org/" target="_blank" class="R2H">Road to Hire</a></li>
+                    <li><a href="https://www.redventures.com/" target="_blank"><span class="RV">Red</span> Ventures</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>   
     </header>
 
-    <h2>The Tech Fellowship</h2>
-    <p>A fellowship provided to GDS Students to learn technical skills and develop the professional profile.</p>
-
-    <h2>Golden Door Scholars</h2>
-    <p>A non-profit that provides DACA and undocumented students with a valuable scholarship. “As a Golden Door Scholar, each student receives a scholarship empowering her or him to earn a bachelor's degree and pursue a dream career. Eligible students may be high school seniors, recent high school graduates, or currently enrolled in college pursuing an undergraduate degree.”</p>
-
-    <h2>Road to Hire</h2>
-    <p>The non-profit division of Red Ventures located in RV4. “Hard work should be met with opportunity. Road to Hire connects underrepresented young adults with onramps to high-earning careers through paid technical training and college access.”</p>
-
-    <h2>Red Ventures</h2>
-    <p>“Founded in 2000, Red Ventures is a portfolio of digital companies that brings consumers and brands together through powerful, customized online experiences. We use online marketplaces, strategic partnerships and passionate people to unleash transformative digital growth and solve complex problems across a variety of industries.”</p>
+    <div class="flex-container">
+        <section>
+            <h2>The Tech Fellowship</h2>
+            <p>A fellowship provided to GDS Students to learn technical skills and develop the professional profile.</p>
+        </section>
+    
+        <section>
+            <h2>Golden Door Scholars</h2>
+            <p>A non-profit that provides DACA and undocumented students with a valuable scholarship. “As a Golden Door Scholar, each student receives a scholarship empowering her or him to earn a bachelor's degree and pursue a dream career. Eligible students may be high school seniors, recent high school graduates, or currently enrolled in college pursuing an undergraduate degree.”</p>
+        </section>
+    
+        <section>
+            <h2>Road to Hire</h2>
+            <p>The non-profit division of Red Ventures located in RV4. “Hard work should be met with opportunity. Road to Hire connects underrepresented young adults with onramps to high-earning careers through paid technical training and college access.”</p>
+        </section>
+    
+        <section>
+            <h2>Red Ventures</h2>
+            <p>“Founded in 2000, Red Ventures is a portfolio of digital companies that brings consumers and brands together through powerful, customized online experiences. We use online marketplaces, strategic partnerships and passionate people to unleash transformative digital growth and solve complex problems across a variety of industries.”</p>
+        </section>
+    </div>
 
     <footer>
         <p>&copy; 2020 GDS</p>

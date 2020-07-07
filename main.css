@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    /* padding: 0; */
+} 
+
+body {
+    /* position: relative; */
+}
+
+html {
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+h1, h2 {
+    color: #093f86;
+}
+
+
+
+/*********
+**Header**
+**********/
+
+header {
+    /* position: relative; */
+    padding: 10px;
+}
+
+.header-box {
+    /* position: relative; */
+    margin: 0 auto 0 auto;
+    height: 60px;
+    max-width: 90vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.header-box h1 {
+    top: 0;
+    margin: 0 auto;
+}
+
+.main-nav {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+.main-nav a {
+    padding: 5px 10px;
+}
+
+.main-nav a:link,
+.main-nav a:visited {
+    border-bottom: 3px solid transparent;
+}
+
+.main-nav a:hover,
+.main-nav a:active {
+    border-bottom: 3px solid #093f86;
+}
+
+/*******************/
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.GDS {
+    color: #ddbb33;
+}
+
+.R2H {
+    color: #44bbbb;
+}
+
+.RV {
+    color: #ff3333;
+}
+
+
+
+/*********
+*Content**
+**********/
+
+h2, p {
+    margin: 5px;
+    margin-bottom: 5px;
+    padding-bottom: 20px;
+}
+
+section {
+    width: 50vw;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+
+/*********
+**Footer**
+**********/
+
+.flex-container::after {
+    content: " ";
+    height: 10px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
